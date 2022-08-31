@@ -1,0 +1,120 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+ background: rgb(208, 208, 238);
+}
+.card{
+ margin: 5% 5%;
+ display:grid;
+ grid-template-columns: 3fr 1fr;
+ /* background: red; */
+}
+.first1{
+ margin-top: 20px;
+ display: grid;
+ grid-template-columns: 1.6fr 1fr;
+ height: 50%;
+}
+.first2{
+ margin-top: 20px;
+ display: grid;
+ grid-template-columns: 1fr 1.6fr;
+}
+.character_info{
+ display: flex;
+}
+
+.character{
+ border-radius: 10px;
+ margin-left: 20px;
+ padding: 2em;
+ background: purple;
+ 
+ 
+}
+.content{
+ margin-left: 2em;
+ padding-bottom: 20px;
+}
+
+h1{
+ color: rgb(231, 214, 214);
+}
+h2{
+ font-size: 1.2rem;
+ color: rgb(175, 158, 158);
+}
+.header{
+ margin-top: 20px;
+ font-weight: bold;
+ font-size: 1.5rem;
+}
+.daniel{
+ /* width: 50vw;
+ height: 52vh; */
+ color: white;
+}
+.pat{
+ margin-top: 20px;
+ background: white;
+ box-shadow: 5px 10px  rgb(228, 218, 218);
+}
+.jean{
+ 
+ background:  hsl(217, 19%, 35%);
+ color: white;
+}
+.daniel{
+ background: hsl(263, 55%, 52%);
+}
+.kira{
+ 
+ background: hsl(219, 29%, 14%);
+ color: white;
+}
+.jona{
+ background: hsl(0, 0%, 100%);
+ box-shadow: 5px 10px rgb(214, 203, 203);
+}
+.rest{
+ margin-top: 30px;
+ color: rgb(184, 175, 175);
+}
+.jona .character_info h1{
+ color: black;
+}
+.pat .character_info h1 {
+ color: black;
+}
+
+
+@media screen and (max-width:670px){
+ 
+ body{
+  min-width: 450px;
+ }
+ .card{
+  display: block;
+ }
+ .four{
+  display: block;
+
+ }
+ .first1{
+  display: block;
+  
+ }
+ .first2{
+  display: block;
+ }
+ .jean{
+  margin-top: 20px;
+
+ }
+ .kira{
+  margin-top: 20px;
+ }
+}
